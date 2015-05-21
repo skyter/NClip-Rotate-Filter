@@ -1,0 +1,13 @@
+{
+ "mag_data": { "samples":[[581, 185, 443]] },
+ "acc_data": { "samples":[[-765, -625, -156]] },
+ "trigger": "double-tap",
+ "fw_version": "v0.20.5",
+ "avg_win": [ 22, 11, 22, 38, 35, 43, 46, 107, 59, 67, 90, 125, 17, 41, 39, 66 ],
+ "awb_gain": [ 1270, 1024, 1760 ],
+ "aec_gain": 60, 
+ "aec_exp": 32, 
+ "bat_level": 249,
+ "avg_readout": 51,
+ "light_meter": 432
+}

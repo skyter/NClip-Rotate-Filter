@@ -1,0 +1,17 @@
+﻿Build started 2015/4/15 下午 06:48:59.
+     1>Project "D:\code\src\picRotate\picRotate\picRotate.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\appPath\opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\code\src\picrotate\picrotate\main.cpp(39): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>d:\code\src\picrotate\picrotate\main.cpp(45): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\code\src\picrotate\picrotate\main.cpp(46): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\code\src\picrotate\picrotate\main.cpp(90): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\src\picRotate\Debug\picRotate.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\appPath\opencv\build\x86\vc12\lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\code\src\picRotate\Debug\picRotate.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\src\picRotate\Debug\picRotate.lib" /MACHINE:X86 Debug\main.obj
+         picRotate.vcxproj -> D:\code\src\picRotate\Debug\picRotate.exe
+     1>Done Building Project "D:\code\src\picRotate\picRotate\picRotate.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.22
